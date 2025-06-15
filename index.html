@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Find The Words</title>
+  <link rel="stylesheet" href="guess.css" />
+</head>
+<body>
+  <h1>A Hidden Message</h1>
+
+  <p id="score">Score: 0</p>
+
+  <div class="grid" id="grid"></div>
+
+  <div class="word-list">
+    <h3>Find These Words:</h3>
+    <p id="remaining"></p>
+
+    <h3>Current Word:</h3>
+    <p id="current-word" class="current-word"></p>
+
+    <button id="reset">Reset Selection</button>
+  </div>
+
+  <audio id="success" src="success.wav" preload="auto"></audio>
+  <audio id="win" src="win.wav" preload="auto"></audio>
+
+  <script src="guess.js"></script>
+</body>
+</html>
