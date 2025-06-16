@@ -96,7 +96,7 @@ gridData.forEach((row, y) => {
         if (remainingWords.length === 0) {
           setTimeout(() => {
             win.play();
-            alert("🎉 Congratulations! You found all the words!");
+            alert("Congratulations my Matt! You found all the words! Now, make a sentence from the remaining letters, starting from the upper left corner.");
           }, 300);
         }
       }
